@@ -16,6 +16,8 @@
  */
 
 #import "TWTRCoreConstants.h"
+#import "EXTScope.h"
+#import "TWTRDefines.h"
 
 #define TWC_SDK_BUNDLE_ID TWC_STR(TWC_BUNDLE_IDENTIFIER)
 

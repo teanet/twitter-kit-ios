@@ -29,6 +29,7 @@
 #import "TWTRTwitter_Private.h"
 #import "TWTRVideoMetaData.h"
 #import "TWTRViewUtil.h"
+#import "EXTScope.h"
 
 @interface TWTRTweetImageView ()
 

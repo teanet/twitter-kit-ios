@@ -1,0 +1,1 @@
+/Users/teanet/Documents/projects/test/twitter-kit-ios/DemoTwitter/Pods/Target Support Files/TwitterCore/TwitterCore-umbrella.h

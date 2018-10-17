@@ -20,6 +20,7 @@
 #import "TWTRStringUtil.h"
 #import "TWTRVideoControlsView.h"
 #import "TWTRVideoPlaybackState.h"
+#import "EXTScope.h"
 
 /**
  * This object provides a mechanism for breaking the retain cycle

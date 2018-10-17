@@ -31,6 +31,7 @@
 #import "TWTRTweetCache.h"
 #import "TWTRTwitter.h"
 #import "TWTRUser.h"
+#import "EXTScope.h"
 
 typedef void (^TWTRTweetCacheLoadTweetIDsCompletion)(NSArray *cachedTweets, NSArray *cacheMissTweetIDs);
 static NSString *const TWTRTweetCachePath = @"cache/tweets";

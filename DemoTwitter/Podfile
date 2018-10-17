@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+use_modular_headers!
+
+def import_twitter;                 pod 'TwitterKit',        :path => '../TwitterKit';             			end
+def import_twitter_core;            pod 'TwitterCore',       :path => '../TwitterCore';             			end
+
+target 'DemoTwitter' do
+	import_twitter_core
+  	import_twitter
+end

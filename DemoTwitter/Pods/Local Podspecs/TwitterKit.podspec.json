@@ -1,0 +1,54 @@
+{
+  "name": "TwitterKit",
+  "version": "3.4.0",
+  "summary": "Increase user engagement and app growth.",
+  "homepage": "https://github.com/twitter/twitter-kit-ios",
+  "documentation_url": "https://github.com/twitter/twitter-kit-ios/wiki",
+  "social_media_url": "https://twitter.com/TwitterDev",
+  "authors": "Twitter",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": [
+    "TwitterKit/MoPub/*.{h,m}",
+    "TwitterKit/Networking/*.{h,m}",
+    "TwitterKit/Persistence/*.{h,m}",
+    "TwitterKit/Resources/*.{h,m}",
+    "TwitterKit/Social/**/*.{h,m}",
+    "TwitterKit/Supporting Files/*.{h,m}",
+    "TwitterKit/*.{h,m}",
+    "TwitterKit/TwitterShareExtensionUI/**/*.{h,m}",
+    "TwitterKit/External/Punycode Cocoa/Pod/*.{h,m}"
+  ],
+  "source": {
+    "git": "http://2gis.ru/TwitterKit.git",
+    "tag": "3.4.0"
+  },
+  "license": {
+    "type": "Commercial",
+    "text": "Twitter Kit: Copyright Twitter, Inc. All Rights Reserved. Use of this software is subject to the terms and conditions of the Twitter Kit Agreement located at https://dev.twitter.com/overview/terms/twitterkit and the Developer Agreement located at https://dev.twitter.com/overview/terms/agreement. OSS: https://github.com/twitter/twitter-kit-ios/blob/master/OS_LICENSES.md"
+  },
+  "resources": [
+    "TwitterKitResources.bundle"
+  ],
+  "frameworks": [
+    "CoreText",
+    "QuartzCore",
+    "CoreData",
+    "CoreGraphics",
+    "Foundation",
+    "Security",
+    "UIKit",
+    "CoreMedia",
+    "AVFoundation",
+    "SafariServices"
+  ],
+  "dependencies": {
+    "TwitterCore": [
+      ">= 3.1.0"
+    ],
+    "mopub-ios-sdk": [
+
+    ]
+  }
+}

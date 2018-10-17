@@ -1,0 +1,1 @@
+../../../../../TwitterKit/TwitterKit/Social/Syndication/Libraries/TwitterUI/TWTRImageSequenceConfiguration.h

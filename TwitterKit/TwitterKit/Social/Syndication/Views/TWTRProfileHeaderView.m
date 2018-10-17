@@ -29,6 +29,7 @@
 #import "TWTRUser.h"
 #import "TWTRVerifiedView.h"
 #import "TWTRViewUtil.h"
+#import "EXTScope.h"
 
 @interface TWTRProfileHeaderView ()
 

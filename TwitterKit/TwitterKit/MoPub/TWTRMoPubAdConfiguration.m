@@ -16,13 +16,11 @@
  */
 
 #import "TWTRMoPubAdConfiguration.h"
-#import <MoPub/MPNativeAdRendererConfiguration.h>
-#import <MoPub/MPNativeAdRequestTargeting.h>
-#import <MoPub/MPStaticNativeAdRenderer.h>
-#import <MoPub/MPStaticNativeAdRendererSettings.h>
-#import <TwitterCore/TWTRUtils.h>
 #import "TWTRMoPubAdConfiguration_Private.h"
 #import "TWTRMoPubNativeAdContainerView.h"
+#import <TwitterCore/TWTRUtils.h>
+
+@import MoPub;
 
 // MoPub classes and variables
 static Class TWTRNativeAdRequestTargetingClass = nil;

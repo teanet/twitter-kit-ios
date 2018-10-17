@@ -1,0 +1,6 @@
+module TwitterKit {
+  umbrella header "TwitterKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

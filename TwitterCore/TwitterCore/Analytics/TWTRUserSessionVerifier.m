@@ -15,6 +15,8 @@
  *
  */
 
+#import "TWTRDefines.h"
+
 #if IS_UIKIT_AVAILABLE
 #import <UIKit/UIKit.h>
 #else
@@ -22,6 +24,7 @@
 #endif
 #import "TWTRDateUtil.h"
 #import "TWTRUserSessionVerifier.h"
+#import "EXTScope.h"
 
 NSTimeInterval const TWTRUserSessionVerifierIntervalDaily = 86400;
 NSTimeInterval const TWTRUserSessionVerifierDefaultDelay = 3;

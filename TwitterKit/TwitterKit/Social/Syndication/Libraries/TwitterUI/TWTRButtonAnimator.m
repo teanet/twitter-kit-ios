@@ -21,6 +21,7 @@
 #import "TWTRAnimatableImageView.h"
 #import "TWTRFrameSheet.h"
 #import "TWTRImageSequenceConfiguration.h"
+#import "EXTScope.h"
 
 @implementation TWTRButtonAnimator
 

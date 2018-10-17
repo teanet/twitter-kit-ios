@@ -30,6 +30,7 @@
 #import "TWTRLoginURLParser.h"
 #import "TWTRTwitter_Private.h"
 #import "TWTRWebViewController.h"
+#import "EXTScope.h"
 
 @interface TWTRWebAuthenticationViewController () <SFSafariViewControllerDelegate>
 

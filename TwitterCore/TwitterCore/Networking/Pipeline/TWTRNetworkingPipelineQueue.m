@@ -22,6 +22,8 @@
 #import "TWTRNetworkingPipelinePackage.h"
 #import "TWTRRequestSigningOperation.h"
 
+#import "EXTScope.h"
+
 // the cap on the number of TWTRNetworkingPipelineQueue level attempts (including retries) of a failed networking request.
 // this count is in addition to the original request attempt itself.
 #define SAME_REQUEST_ATTEMPT_CAP (3)

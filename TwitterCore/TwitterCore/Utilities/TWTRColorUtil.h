@@ -20,6 +20,8 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "TWTRDefines.h"
+
 #if IS_UIKIT_AVAILABLE
 #import <UIKit/UIKit.h>
 #else

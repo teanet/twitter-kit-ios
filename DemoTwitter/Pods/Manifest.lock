@@ -1,0 +1,39 @@
+PODS:
+  - mopub-ios-sdk (5.4.0):
+    - mopub-ios-sdk/MoPubSDK (= 5.4.0)
+  - mopub-ios-sdk/Avid (5.4.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/Core (5.4.0)
+  - mopub-ios-sdk/Moat (5.4.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/MoPubSDK (5.4.0):
+    - mopub-ios-sdk/Avid
+    - mopub-ios-sdk/Core
+    - mopub-ios-sdk/Moat
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.0):
+    - mopub-ios-sdk
+    - TwitterCore (>= 3.1.0)
+
+DEPENDENCIES:
+  - TwitterCore (from `../TwitterCore`)
+  - TwitterKit (from `../TwitterKit`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - mopub-ios-sdk
+
+EXTERNAL SOURCES:
+  TwitterCore:
+    :path: "../TwitterCore"
+  TwitterKit:
+    :path: "../TwitterKit"
+
+SPEC CHECKSUMS:
+  mopub-ios-sdk: 6e331c6cf6052426a750568578f55dd3de0a67f1
+  TwitterCore: 1696a81c5e19f5c4dd09959b1d1896bb16287703
+  TwitterKit: 167440dbb481161070782be254cbcfced3d81f40
+
+PODFILE CHECKSUM: 60fd134435e516511b864d830c5534e19ce2bc0d
+
+COCOAPODS: 1.6.0.beta.1

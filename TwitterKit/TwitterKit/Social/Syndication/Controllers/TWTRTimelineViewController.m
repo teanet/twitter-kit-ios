@@ -32,6 +32,7 @@
 #import "TWTRTweetTableViewCell.h"
 #import "TWTRTweetView.h"
 #import "TWTRTwitter_Private.h"
+#import "EXTScope.h"
 
 static NSString *const TWTRCellReuseIdentifier = @"TweetCell";
 static CGFloat const TWTREstimatedRowHeight = 150;

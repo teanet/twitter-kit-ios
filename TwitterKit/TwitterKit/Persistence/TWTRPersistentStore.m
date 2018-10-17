@@ -18,6 +18,8 @@
 #import "TWTRPersistentStore.h"
 #import <TwitterCore/TWTRUtils.h>
 #import "TWTROSVersionInfo.h"
+#import "EXTScope.h"
+#import "EXTKeyPathCoding.h"
 
 @interface TWTRPersistentStoreObject : NSObject
 

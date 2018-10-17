@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Viewability/MOAT"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TwitterCore" "${PODS_ROOT}/Headers/Public/TwitterKit" "${PODS_ROOT}/Headers/Public/mopub-ios-sdk"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TwitterCore" "${PODS_CONFIGURATION_BUILD_DIR}/TwitterKit" "${PODS_CONFIGURATION_BUILD_DIR}/mopub-ios-sdk" "${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Viewability/Avid"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/MoPub/mopub-ios-sdk.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/TwitterCore/TwitterCore.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/TwitterKit/TwitterKit.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/TwitterCore" -isystem "${PODS_ROOT}/Headers/Public/TwitterKit" -isystem "${PODS_ROOT}/Headers/Public/mopub-ios-sdk"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Avid-mopub-3.6.1" -l"TwitterCore" -l"TwitterKit" -l"mopub-ios-sdk" -framework "AVFoundation" -framework "Accounts" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "MPUBMoatMobileAppKit" -framework "MediaPlayer" -framework "QuartzCore" -framework "SafariServices" -framework "Security" -framework "Social" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/MoPub/mopub-ios-sdk.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/TwitterCore/TwitterCore.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/TwitterKit/TwitterKit.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

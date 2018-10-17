@@ -1,0 +1,6 @@
+module TwitterCore {
+  umbrella header "TwitterCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

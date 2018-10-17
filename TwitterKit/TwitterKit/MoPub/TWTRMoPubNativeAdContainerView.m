@@ -16,11 +16,12 @@
  */
 
 #import "TWTRMoPubNativeAdContainerView.h"
-#import <MoPub/MPNativeAdRendering.h>
 #import <TwitterCore/TWTRColorUtil.h>
 #import "TWTRMoPubAdDisclaimerView.h"
 #import "TWTRMoPubNativeAdView.h"
 #import "TWTRViewUtil.h"
+
+@import MoPub;
 
 static const CGFloat TWTRMoPubAdContainerViewPadding = 15.0;
 static const CGFloat TWTRMoPubAdContainerViewAdViewCornerRadius = 4.0;
